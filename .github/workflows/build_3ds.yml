@@ -25,13 +25,13 @@ jobs:
          zip -r plutoboy_3ds_cia.zip Plutoboy.cia
       - 
        name: Archive 3DSX Build Output
-       uses: actions/upload-artifact@v2
+       uses: actions/upload-artifact@v4
        with:
           name: plutoboy_3ds_3dsx
           path: plutoboy_3ds_3dsx.zip
       - 
        name: Archive CIA Build Output
-       uses: actions/upload-artifact@v2
+       uses: actions/upload-artifact@v4
        with:
           name: plutoboy_3ds_cia
           path: plutoboy_3ds_cia.zip
