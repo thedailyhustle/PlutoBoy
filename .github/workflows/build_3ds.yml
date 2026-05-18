@@ -1,5 +1,6 @@
 name: 3DS
 # Run this workflow every time a new commit pushed to your repository
+runs-on: self-hosted
 on: 
   push:
   schedule:
